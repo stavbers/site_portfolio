@@ -1318,13 +1318,14 @@ to {
     }
   
     .btn:before {
-      font: 15px/1.2em FontAwesome;
+      /* font: 15px/1.2em FontAwesome; */
+      font: 22px/1.2em red_icons;
       color: #fff;
       position: absolute;
       height: 100%;
-      right: 25px;
+      right: 20px;
       top: 50%;
-      margin-top: -9px;
+      margin-top: -15px;
       transition: all 0.3s;
       opacity: 0;
       filter: alpha(opacity=0);
@@ -1346,7 +1347,7 @@ to {
     }
   
     .btn.btn-download:before {
-      content: "\f019";
+      content: "\e910";
     }
   
     .btn.btn-contact:before {
