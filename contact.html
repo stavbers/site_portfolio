@@ -9,9 +9,6 @@
 
     <!-- Template Google Fonts -->
     
-<!-- Start: injected by Adguard -->
-<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63745885194664&amp;domain=slimhamdi.net&amp;mask=111" nonce="17497d228a0640728780ce7a92a55f3d" type="text/javascript"></script>
-<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts.js?ts=63745885192742&name=AdGuard%20Popup%20Blocker&name=Adguard%20Assistant" nonce="17497d228a0640728780ce7a92a55f3d" type="text/javascript"></script>
 
 <!-- End: injected by Adguard -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -22,6 +19,7 @@
     <link href="css/preloader.min.css" rel="stylesheet">
     <link href="css/circle.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
     <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -36,32 +34,32 @@
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li class="icon-box">
-            <i class="fa fa-home"></i>
+        <li class="icon-box active">
+            <i class="fa icon-home"></i>
             <a href="index.html">
                 <h2>Home</h2>
             </a>
         </li>
         <li class="icon-box">
-            <i class="fa fa-user"></i>
+            <i class="fa icon-user-tie"></i>
             <a href="about.html">
                 <h2>About</h2>
             </a>
         </li>
         <li class="icon-box">
-            <i class="fa fa-briefcase"></i>
+            <i class="fa icon-briefcase"></i>
             <a href="portfolio.html">
                 <h2>Portfolio</h2>
             </a>
         </li>
-        <li class="icon-box active">
-            <i class="fa fa-envelope-open"></i>
+        <li class="icon-box">
+            <i class="fa icon-envelope"></i>
             <a href="contact.html">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box">
-            <i class="fa fa-comments"></i>
+            <i class="fa icon-comments-alt"></i>
             <a href="blog.html">
                 <h2>Blog</h2>
             </a>
@@ -76,11 +74,11 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li class="active"><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li class="active"><a href="index.html"><i class="fa icon-home"></i><span>Home</span></a></li>
+                <li><a href="about.html"><i class="fa icon-user-tie"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa icon-briefcase"></i><span>Portfolio</span></a></li>
+                <li><a href="contact.html"><i class="fa icon-envelope"></i><span>Contact</span></a></li>
+                <li><a href="blog.html"><i class="fa icon-comments-alt"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
@@ -123,7 +121,7 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form class="contactform" method="post" action="php/process-form.php">
+                <form class="contactform" method="POST" action="php/form.php">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
