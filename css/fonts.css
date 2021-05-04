@@ -11,6 +11,27 @@
   font-display: block;
 }
 
+/* 
+@font-face {
+  font-family: "AaarghRegular";
+  src: url("../fonts/AaarghRegular/AaarghRegular.eot");
+  src: url("../fonts/AaarghRegular/AaarghRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/AaarghRegular/AaarghRegular.woff") format("woff"),
+  url("../fonts/AaarghRegular/AaarghRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AaarghBold";
+  src: url("../fonts/AaarghBold/AaarghBold.eot");
+  src: url("../fonts/AaarghBold/AaarghBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/AaarghBold/AaarghBold.woff") format("woff"),
+  url("../fonts/AaarghBold/AaarghBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} */
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'red_icons' !important;
